@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "concepts": "cpp",
+        "deque": "cpp",
+        "exception": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "queue": "cpp",
+        "streambuf": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "xiosbase": "cpp",
+        "xmemory": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
