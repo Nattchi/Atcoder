@@ -9,11 +9,12 @@
 using namespace std;
 
 int main(){
-    char c1, c2, c3;
-    cin >> c1 >> c2 >> c3;
-    if(c1 == c2 && c2 == c3){
-        cout << "Won" << endl;
+    int v, t, s, d;
+    cin >> v >> t >> s >> d;
+    bool possible = (v * t <= d) && (d <= v * s);
+    if(!possible){
+        cout << "Yes" << endl;
     }else{
-        cout << "Lost" << endl;
+        cout << "No" << endl;
     }
 }
